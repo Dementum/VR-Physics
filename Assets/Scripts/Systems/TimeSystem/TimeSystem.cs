@@ -1,9 +1,7 @@
-using System;
-using TMPro;
 using Tools.TimeSystem;
 using UnityEngine;
 
-namespace GameSystems
+namespace Systems.TimeSystem
 {
     public class TimeSystem : MonoBehaviour
     {

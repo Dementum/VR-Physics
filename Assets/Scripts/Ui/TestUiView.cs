@@ -77,5 +77,13 @@ namespace Scriptis.Ui
             _listToggle.onValueChanged.AddListener(OnListTogglePressed);
             _listSlider.onValueChanged.AddListener(OnListSliderPressed);
         }
+
+        private void OnDestroy()
+        {
+            _circleToggle.onValueChanged.RemoveListener(OnCircleTogglePressed);
+            _circleSlider.onValueChanged.RemoveListener(OnCircleSliderPressed);
+            _listToggle.onValueChanged.RemoveListener(OnListTogglePressed);
+            _listSlider.onValueChanged.RemoveListener(OnListSliderPressed);
+        }
     }
 }

@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace Tools.EventSystem
+namespace Systems.EventSystem
 {
     public class GameEvent
     {
         private event Action _eventInternal;
         
-        public void Subbscribe(Action subscriber)
+        public void Subscribe(Action subscriber)
         {
             _eventInternal += subscriber;
         }
@@ -26,7 +26,7 @@ namespace Tools.EventSystem
     {
         private event Action<T> _eventInternal;
         
-        public void Subbscribe(Action<T> subscriber)
+        public void Subscribe(Action<T> subscriber)
         {
             _eventInternal += subscriber;
         }

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Tools.TimeSystem
+namespace Systems.TimeSystem
 {
     public interface ICalendarEventsHandler
     {

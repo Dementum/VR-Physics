@@ -1,13 +1,12 @@
 ﻿using System;
-using Tools.EventSystem;
-    
-namespace Tools.TimeSystem
+
+namespace Systems.TimeSystem
 {
     public class CalendarGameEventsHandler : ICalendarEventsHandler
     {
         public void SubscribeOnMinuteUpdate(Action<int> subscriber)
         {
-            GameEventSystem.CalendarEvents.MinutesUpdated.Subbscribe(subscriber);
+            GameEventSystem.CalendarEvents.MinutesUpdated.Subscribe(subscriber);
         }
 
         public void UnSubscribeOnMinuteUpdate(Action<int> subscriber)
@@ -22,7 +21,7 @@ namespace Tools.TimeSystem
 
         public void SubscribeOnHourUpdate(Action<int> subscriber)
         {
-            GameEventSystem.CalendarEvents.HoursUpdated.Subbscribe(subscriber);
+            GameEventSystem.CalendarEvents.HoursUpdated.Subscribe(subscriber);
         }
 
         public void UnSubscribeOnHourUpdate(Action<int> subscriber)
@@ -37,7 +36,7 @@ namespace Tools.TimeSystem
 
         public void SubscribeOnDayUpdate(Action<int> subscriber)
         {
-            GameEventSystem.CalendarEvents.DaysUpdated.Subbscribe(subscriber);
+            GameEventSystem.CalendarEvents.DaysUpdated.Subscribe(subscriber);
         }
 
         public void UnSubscribeOnDayUpdate(Action<int> subscriber)
@@ -52,7 +51,7 @@ namespace Tools.TimeSystem
 
         public void SubscribeOnWeekUpdate(Action<int> subscriber)
         {
-            GameEventSystem.CalendarEvents.WeeksUpdated.Subbscribe(subscriber);
+            GameEventSystem.CalendarEvents.WeeksUpdated.Subscribe(subscriber);
         }
 
         public void UnSubscribeOnWeekUpdate(Action<int> subscriber)
@@ -67,7 +66,7 @@ namespace Tools.TimeSystem
 
         public void SubscribeOnMonthUpdate(Action<int> subscriber)
         {
-            GameEventSystem.CalendarEvents.MonthsUpdated.Subbscribe(subscriber);
+            GameEventSystem.CalendarEvents.MonthsUpdated.Subscribe(subscriber);
         }
 
         public void UnSubscribeOnMonthUpdate(Action<int> subscriber)
@@ -82,7 +81,7 @@ namespace Tools.TimeSystem
 
         public void SubscribeOnSeasonUpdate(Action<int> subscriber)
         {
-            GameEventSystem.CalendarEvents.SeasonsUpdated.Subbscribe(subscriber);
+            GameEventSystem.CalendarEvents.SeasonsUpdated.Subscribe(subscriber);
         }
 
         public void UnSubscribeOnSeasonUpdate(Action<int> subscriber)
@@ -97,7 +96,7 @@ namespace Tools.TimeSystem
 
         public void SubscribeOnYearUpdate(Action<int> subscriber)
         {
-            GameEventSystem.CalendarEvents.YearsUpdated.Subbscribe(subscriber);
+            GameEventSystem.CalendarEvents.YearsUpdated.Subscribe(subscriber);
         }
 
         public void UnSubscribeOnYearUpdate(Action<int> subscriber)

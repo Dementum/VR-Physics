@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using Sirenix.OdinInspector;
 using UnityEngine;
 
-namespace Tools.TimeSystem
+namespace Systems.TimeSystem
 {
     [System.Serializable]
     public struct TimeContainer

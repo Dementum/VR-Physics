@@ -1,7 +1,4 @@
-using System;
-using Tools.TimeSystem;
-
-namespace GameSystems
+namespace Systems.TimeSystem
 {
     public interface ICalendar
     {

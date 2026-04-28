@@ -1,13 +1,12 @@
-using GameSystems;
 using TMPro;
 using UnityEngine;
 
-namespace Tools.TimeSystem.Debug
+namespace Systems.TimeSystem.Debug
 {
     public class CalendarDebug : MonoBehaviour
     {
         [SerializeField] private TextMeshPro _debugOutput;
-        [SerializeField] private GameSystems.TimeSystem _timeSystem;
+        [SerializeField] private Systems.TimeSystem.TimeSystem _timeSystem;
         private ICalendar _calendar;
         
         private void Start()

@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Tools.EventSystem
+﻿namespace Systems.EventSystem
 {
     public class ExampleEventContainer
     {
