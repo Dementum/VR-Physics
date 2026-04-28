@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: GameTimeParams
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableDefinitions.GameTimeParams
   SecondsPerMinute: 1
-  MinutesPerHour: 1
+  MinutesPerHour: 5
   HoursPerDay: 24
   DaysPerWeek: 7
   WeeksPerMonth: 4
