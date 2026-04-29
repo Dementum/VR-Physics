@@ -1,6 +1,4 @@
-﻿using Systems.EventSystem;
-
-namespace Systems
+﻿namespace Systems.EventSystem
 {
     public class CalendarEventContainer
     {
