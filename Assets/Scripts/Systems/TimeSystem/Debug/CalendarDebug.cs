@@ -6,7 +6,7 @@ namespace Systems.TimeSystem.Debug
     public class CalendarDebug : MonoBehaviour
     {
         [SerializeField] private TextMeshPro _debugOutput;
-        [SerializeField] private Systems.TimeSystem.TimeSystem _timeSystem;
+        [SerializeField] private TimeSystem _timeSystem;
         private ICalendar _calendar;
         
         private void Start()
