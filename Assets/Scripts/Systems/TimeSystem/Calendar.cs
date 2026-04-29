@@ -21,7 +21,7 @@ namespace Systems.TimeSystem
     [System.Serializable]
     public class Calendar : ICalendar
     {
-        public int Minute => _minute;
+        public int Minute => _minute - 1;
         public int Hour  => _hour;
         public int Date => _week * _gameTimeParams.DaysPerWeek + _day + 1;
         public string Day  => _gameTimeParams.GetDayName(_day);

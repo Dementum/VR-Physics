@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a87b3d9526fb494796c905a1214c4bd, type: 3}
   m_Name: GameTimeParams
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableDefinitions.GameTimeParams
-  SecondsPerMinute: 1
-  MinutesPerHour: 5
+  SecondsPerMinute: 0.1
+  MinutesPerHour: 60
   HoursPerDay: 24
   DaysPerWeek: 7
   WeeksPerMonth: 4
