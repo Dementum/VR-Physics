@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7199370700713640255}
   - component: {fileID: 3582885712428017947}
   - component: {fileID: 4158198802993193079}
+  - component: {fileID: 1972142068464288583}
   m_Layer: 8
   m_Name: RightHandRig
   m_TagString: Untagged
@@ -165,6 +166,19 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!114 &1972142068464288583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721623882167673191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f481298c43d842c692b60b84c2200a5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Systems.Player.PlayerGrab
+  _interactor: {fileID: 6725338730125088110}
 --- !u!1 &1666840891293811455
 GameObject:
   m_ObjectHideFlags: 0
@@ -978,6 +992,7 @@ GameObject:
   - component: {fileID: 499114196203604488}
   - component: {fileID: 625112256428112910}
   - component: {fileID: 7641537164254196883}
+  - component: {fileID: 379744364795325871}
   m_Layer: 8
   m_Name: LeftHandRig
   m_TagString: Untagged
@@ -1132,6 +1147,19 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!114 &379744364795325871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6821601422274793461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f481298c43d842c692b60b84c2200a5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Systems.Player.PlayerGrab
+  _interactor: {fileID: 4314598751147328026}
 --- !u!1 &7299904079012761857
 GameObject:
   m_ObjectHideFlags: 0

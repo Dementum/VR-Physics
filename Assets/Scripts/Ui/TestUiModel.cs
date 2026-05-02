@@ -1,12 +1,8 @@
-using Scriptis.Ui;
-using UnityEngine;
+using Scripts.Ui;
 
 public class TestUiModel
 {
-    private bool IsCircleEnabled;
     private float CircleValue;
-
-    private bool IsListEnabled;
     private float ListValue;
     
     private TestUiView _view;
@@ -18,7 +14,6 @@ public class TestUiModel
 
     public void SetCircleEnabled(bool enabled)
     {
-        IsCircleEnabled = enabled;
         if (enabled)
         {
             _view.DisplayCircle();
@@ -36,7 +31,6 @@ public class TestUiModel
     
     public void SetListEnabled(bool enabled)
     {
-        IsListEnabled = enabled;
         if (enabled)
         {
             _view.DisplayList();
