@@ -8171,65 +8171,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 98752573111821190, guid: 0171661d1d8353b48868218142df735a, type: 3}
-      propertyPath: m_NoValidHitProperties.m_Gradient.atime0
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 98752573111821190, guid: 0171661d1d8353b48868218142df735a, type: 3}
-      propertyPath: m_NoValidHitProperties.m_Gradient.atime1
-      value: 65535
-      objectReference: {fileID: 0}
-    - target: {fileID: 98752573111821190, guid: 0171661d1d8353b48868218142df735a, type: 3}
-      propertyPath: m_NoValidHitProperties.m_Gradient.atime2
-      value: 55705
-      objectReference: {fileID: 0}
-    - target: {fileID: 98752573111821190, guid: 0171661d1d8353b48868218142df735a, type: 3}
-      propertyPath: m_NoValidHitProperties.m_Gradient.key1.a
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 98752573111821190, guid: 0171661d1d8353b48868218142df735a, type: 3}
-      propertyPath: m_NoValidHitProperties.m_Gradient.key2.a
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 98752573111821190, guid: 0171661d1d8353b48868218142df735a, type: 3}
-      propertyPath: m_NoValidHitProperties.m_Gradient.m_ColorSpace
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 98752573111821190, guid: 0171661d1d8353b48868218142df735a, type: 3}
-      propertyPath: m_NoValidHitProperties.m_Gradient.m_NumAlphaKeys
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 3524982820811518033, guid: 0171661d1d8353b48868218142df735a, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 6785520323822056569, guid: 0171661d1d8353b48868218142df735a, type: 3}
-      propertyPath: m_NoValidHitProperties.m_Gradient.atime0
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6785520323822056569, guid: 0171661d1d8353b48868218142df735a, type: 3}
-      propertyPath: m_NoValidHitProperties.m_Gradient.atime1
-      value: 65535
-      objectReference: {fileID: 0}
-    - target: {fileID: 6785520323822056569, guid: 0171661d1d8353b48868218142df735a, type: 3}
-      propertyPath: m_NoValidHitProperties.m_Gradient.atime2
-      value: 55705
-      objectReference: {fileID: 0}
-    - target: {fileID: 6785520323822056569, guid: 0171661d1d8353b48868218142df735a, type: 3}
-      propertyPath: m_NoValidHitProperties.m_Gradient.key1.a
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6785520323822056569, guid: 0171661d1d8353b48868218142df735a, type: 3}
-      propertyPath: m_NoValidHitProperties.m_Gradient.key2.a
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6785520323822056569, guid: 0171661d1d8353b48868218142df735a, type: 3}
-      propertyPath: m_NoValidHitProperties.m_Gradient.m_ColorSpace
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6785520323822056569, guid: 0171661d1d8353b48868218142df735a, type: 3}
-      propertyPath: m_NoValidHitProperties.m_Gradient.m_NumAlphaKeys
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7148903726329778922, guid: 0171661d1d8353b48868218142df735a, type: 3}
       propertyPath: m_LocalPosition.x
