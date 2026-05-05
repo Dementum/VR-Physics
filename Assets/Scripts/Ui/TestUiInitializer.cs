@@ -1,10 +1,9 @@
-using System;
-using Scriptis.Ui;
+using Scripts.Ui;
 using UnityEngine;
 
 public class TestUiInitializer : MonoBehaviour
 {
-    [SerializeField] private TestUiModel _model;
+    private TestUiModel _model;
     [SerializeField] private TestUiView _view;
     [SerializeField] private TestUiPresenter _presenter;
 

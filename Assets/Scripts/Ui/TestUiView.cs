@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Scriptis.Ui
+namespace Scripts.Ui
 {
     public class TestUiView : MonoBehaviour
     {

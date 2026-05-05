@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace Scriptis.Ui
+namespace Scripts.Ui
 {
     public class TestUiPresenter : MonoBehaviour
     {
