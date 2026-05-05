@@ -8,15 +8,15 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - UiInteractor
   - Water
   - UI
-  - Player
-  - Grabbed
-  - Hand
-  - Pointer
+  - PlayerBody
+  - PlayerHand
   - Grabber
-  - 
+  - Grabbable
+  - Geometry
+  - HeldObject
   - 
   - 
   - 
